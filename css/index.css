@@ -1,0 +1,40 @@
+* {
+   /* background-color: #525252;
+    color: cornsilk; */
+}
+
+a {
+    color: #cf677f;
+}
+
+a:hover {
+    color: darkgray;
+}
+
+.jumbotron h1 {
+    color: #cf677f;
+}
+
+.heading {
+    text-decoration: underline;
+    text-decoration-color: #cf677f;
+    clear: both;
+}
+
+figure h1 {
+    font-size: 70px;
+    color: #cf677f;
+}
+
+figure {
+    float: left;
+    padding: 20px;
+}
+
+figure h6 {
+    text-align: center;
+}
+
+section section {
+    display: block;
+}

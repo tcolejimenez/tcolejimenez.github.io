@@ -1,14 +1,213 @@
-<html> 
+<html>
 
 <head>
     <title>Cole Jimenez</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+
+
+    <!-- language logos -->
+    <link rel="stylesheet"
+          href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
 </head>
 
 <body>
-<div class="container">
-    <h1> Howdy! </h1>
-    <p> Welcome to the landing page. How are you today? </p>
+<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+    <a class="navbar-brand" href="index.html">Cole Jimenez</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#top">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Resume</a>
+            <a class="nav-item nav-link" href="#">Projects</a>
+            <a class="nav-item nav-link" href="#">Contact</a>
+        </div>
+    </div>
+</nav>
+<span id="top"></span>
+
+
+<!-- welcome to page -->
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <img src="img/wave.svg" width="175px"></div>
+            <div class="col-8">
+                <h1 class="display-4">Nice to meet you.</h1>
+                <p class="lead">I'm Cole Jimenez, a software developer with a never-ending thirst to grow. </p>
+                <hr class="my-3">
+                <p>&#9652; <span>analytically minded</span> &#9652; <span>champion of excellence</span> &#9652;
+                    <span>co-op queen</span> &#9652; <span>Linux + Windows bilingual </span> &#9652;
+                </p>
+
+            </div>
+        </div>
+
+    </div>
 </div>
+
+
+<div class="container pt-5">
+
+    <div class="">
+        <section id="intro">
+
+
+            <h1 class="text-right heading">Intros First</h1>
+
+            <section>
+                <h4>Languages</h4>
+
+                <figure>
+                    <h1>
+
+                        <i class="fa fa-terminal" aria-hidden="true"></i>
+                    </h1>
+                <h6 class="float-left">CLI</h6>
+                </figure>
+
+                <figure>
+                    <h1><i class="devicon-java-plain"></i></h1>
+
+                    <h6>Java</h6>
+                </figure>
+
+                <figure>
+                    <h1><i class="devicon-html5-plain"></i></h1>
+                        <h6> HTML5</h6>
+                </figure>
+
+                <figure>
+                    <h1><i class="devicon-css3-plain"></i></h1>
+                    <h6> CSS3</h6>
+                </figure>
+
+                <figure>
+                    <h1><i class="devicon-javascript-plain"></i></h1>
+                    <h6> Javascript </h6>
+                </figure>
+
+                <figure>
+                    <h1><i class="devicon-jquery-plain"></i></h1>
+                    <h6> JQuery</h6>
+                </figure>
+
+                <figure>
+                    <h1><i class="devicon-php-plain"></i></h1>
+                    <h6> PHP</h6>
+                </figure>
+
+                <figure>
+                    <h1><i class="devicon-mysql-plain"></i></h1>
+                    <h6> MySQL</h6>
+                </figure>
+
+                <figure>
+                <h1><i class="devicon-c-plain"></i></h1>
+                    <h6>C</h6>
+                </figure>
+
+                <figure>
+                    <h1><i class="devicon-cplusplus-plain"></i> </h1>
+                    <h6>C++</h6>
+                </figure>
+
+                <figure>
+                <h1><i class="devicon-git-plain"></i></h1>
+                    <h6> Git (CLI + GUI)</h6>
+                </figure>
+
+            </section>
+
+            <h4>Education</h4>
+
+            <h5 class="school">Codeup</h5>
+            <h5 class="school">San Antonio College</h5>
+            <h5 class="school">UTSA</h5>
+
+
+            <h4>Experience</h4>
+
+            <h5>J.Crew</h5>
+            <h6>Very Personal Stylist</h6>
+            <h6>International Associate</h6>
+            <h6>Email/Chat Associate</h6>
+            <h5>Jason's Deli</h5>
+            <h6>Catering Associate</h6>
+
+            <aside class="img d-flex justify-content-center">
+                <img src="img/handshake.svg" width="175px" height="175px">
+            </aside>
+        </section>
+
+
+        <section id="work">
+
+            <h2 class="text-left heading">Show, don't Tell</h2>
+            <p>
+                <ul>
+                    <li><a href="#">Three-day Forecast</a></li>
+            <p>Working with the Open Weather API, this project makes requests and formats data to show a
+                three day forecast for any location, using longitude and latitude or dropping a pin on a map.</p>
+            <li><a href="#">Whack-a-bug</a></li>
+            <p>Embracing the simple in the complex, this game uses </p>
+
+            <li><a href="#">National Parks FAQ</a></li>
+            <p>Having a little fun with jQuery, this page takes static text to the next level with fun interactive
+                trivia. </p>
+
+            </ul>
+            <p>Looking for more? Check out my <a href="projects.html">projects</a> page that hosts the rest of my
+                professional portfolio. </p>
+            </p>
+            <aside class="img d-flex justify-content-center">
+                <img src="img/eyes.svg" width="175px" height="175px">
+            </aside>
+        </section>
+
+
+        <section id="contact">
+
+            <h2 class="text-right heading">Get in Touch</h2>
+            <p>
+                E: <a href="mailto:taylor.cole.jimenez@gmail.com">taylor.cole.jimenez@gmail.com</a><br>
+                LinkedIn: <a href="https://www.linkedin.com/in/taylor-cole-jimenez-47016b93/">Taylor (Cole)
+                Jimenez</a><br>
+            <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical"
+                 data-theme="dark" data-vanity="taylor-cole-jimenez-47016b93"><a class="LI-simple-link"
+                                                                                 href='https://www.linkedin.com/in/taylor-cole-jimenez-47016b93?trk=profile-badge'>Taylor
+                (Cole) Jimenez</a></div>
+            GitHub: <a href="https://github.com/tcolejimenez">tcolejim</a>
+
+
+            <iframe src="http://githubbadge.appspot.com/tcolejimenez"
+                    style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
+            </p>
+            <aside class="img d-flex justify-content-center">
+                <img src="img/contact.svg" width="175px" height="175px">
+            </aside>
+        </section>
+
+
+    </div>
+</div>
+
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
 </html>
