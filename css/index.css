@@ -1,40 +1,107 @@
+:root {
+    --highlight-color: #16aaa5;
+}
+
+/* pretty chill pink #b68a83 */
+
 * {
    /* background-color: #525252;
     color: cornsilk; */
 }
 
 a {
-    color: #cf677f;
+    color: var(--highlight-color);
 }
 
 a:hover {
-    color: darkgray;
+    color: #5e5e5e;
 }
 
+.jumbotron {
+    z-index: 200;
+}
+
+
 .jumbotron h1 {
-    color: #cf677f;
+    color: var(--highlight-color);
 }
 
 .heading {
     text-decoration: underline;
-    text-decoration-color: #cf677f;
+    text-decoration-color: var(--highlight-color);
     clear: both;
 }
 
 figure h1 {
     font-size: 70px;
-    color: #cf677f;
+    color: var(--highlight-color);
 }
 
 figure {
-    float: left;
     padding: 20px;
+    float: left;
 }
 
 figure h6 {
     text-align: center;
+    font-weight: bolder;
 }
 
-section section {
+article {
     display: block;
+}
+
+article section {
+    display: block;
+    clear: both;
+    align-content: center;
+
+}
+
+i {
+    color: var(--highlight-color);
+}
+
+span {
+    color: var(--highlight-color);
+}
+
+/* The sidebar menu */
+.sidenav {
+/* Full-height: remove this if you want "auto" height */
+    width: 15
+    0px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: -2; /* Stay on top */
+    bottom: 20%; /* Stay at the top */
+    left: 20;
+    /*background-color: #111;*/ /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Style page content */
+main {
+    margin-left: 150px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
 }
