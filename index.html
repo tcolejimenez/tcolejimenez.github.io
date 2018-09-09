@@ -287,6 +287,15 @@
         crossorigin="anonymous"></script>
 
 <script>
+    $('figure h1').hover(function() {
+        $(this).css("font-size", "130px");
+        $(this).css('color', '#5e5e5e');
+    }, function () {
+        $(this).css("font-size", "100px");
+        $(this).toggleClass('grey');
+    });
+
+
     // $('#languages').hide();
     $('#lang-down').hide();
 

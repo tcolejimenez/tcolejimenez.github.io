@@ -33,9 +33,10 @@ a:hover {
 }
 
 figure h1 {
-    font-size: 70px;
+    font-size: 100px;
     color: var(--highlight-color);
 }
+
 
 figure {
     padding: 20px;
@@ -103,4 +104,8 @@ main {
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+}
+
+.grey {
+    color: #5e5e5e;
 }
