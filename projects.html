@@ -2,24 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-        <title>Cole Jimenez</title>
+    <title>Cole Jimenez</title>
 
-        <!-- bootstrap -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-              integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-
-        <!-- language logos -->
-        <link rel="stylesheet"
-              href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-              integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 
-        <!-- my stylesheet -->
-        <link rel="stylesheet" href="css/index.css">
+    <!-- language logos -->
+    <link rel="stylesheet"
+          href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-    </head>
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Lobster+Two" rel="stylesheet">
+
+
+    <!-- my stylesheet -->
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
 
 <body>
 
@@ -33,7 +37,7 @@
     </button>
     <div class="collapse navbar-collapse justify-content-end mr-5" id="navbarNavAltMarkup">
         <div class="navbar-nav ">
-            <a class="nav-item nav-link" href="#top">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="about.html">About</a>
             <a class="nav-item nav-link" href="resume.html">Resume</a>
             <a class="nav-item nav-link active" href="projects.html">Projects</a>
@@ -54,9 +58,10 @@
                 <img src="img/wave.svg" width="175px"></div>
             <div class="col-8">
                 <h1 class="display-4">Nice to meet you.</h1>
-                <p class="lead">I'm Cole Jimenez, a software developer with a forever desire to grow. </p>
+                <p class="lead">I'm Cole Jimenez, a software developer with an unquenchable curiosity. </p>
                 <hr class="my-3">
-                <p class="text-center"><span>analytically minded</span> &#9652; <span>champion of excellence</span> &#9652;
+                <p class="text-center"><span>analytically minded</span> &#9652; <span>champion of excellence</span>
+                    &#9652;
                     <span>co-op queen</span>
                 </p>
 
@@ -69,15 +74,219 @@
 
 <!-- left nav bar for page -->
 <nav class="sidenav">
-    <a class="nav-link active" href="#intro"><span>Resume</span></a>
-    <a class="nav-link" href="#featured"><span>Featured</span></a>
-    <a class="nav-link" href="#contact"><span>Contact</span></a>
+    <a class="nav-link active" href="#html"><span>HTML</span></a>
+    <a class="nav-link" href="#css"><span>CSS</span></a>
+    <a class="nav-link" href="#js"><span>JavaScript</span></a>
+    <a class="nav-link" href="#jquery"><span>jQuery</span></a>
+    <a class="nav-link d-none" href="#java"><span>Java</span></a>
+    <a class="nav-link d-none" href="#mysql"><span>mySQL</span></a>
 
 </nav>
 
 
 <div class="container pt-5">
+
+
     <main>
+        <h5 class="pb-4">Here's a collection of my favorite projects I've worked on recently, sorted by the technology used.
+            For a full look at my work while at Codeup, check out by
+            <a href="#">Web Excercises</a> repo and <a href="#">other Exercises</a> on Github. </h5>
+
+        <!-- HTML Projects  -->
+        <article id="html" class="">
+            <!-- title -->
+            <h1 class="heading text-right mr-5">HTML</h1>
+
+            <!-- proj 1 - github -->
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/github-clone.png" alt="github clone">
+                <div class="card-body">
+                    <h5 class="card-title">Github Clone</h5>
+                    <p class="card-text">This project mimics the layout of a Github, with header, footer and content
+                        sections. </p>
+                    <aside class="d-flex justify-content-around">
+                        <a href="#" class="btn text-center">Project</a>
+                        <a href="#" class="btn text-center">Code</a>
+                    </aside>
+                </div>
+            </div>
+
+            <!-- proj 2 - register form -->
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/register-form.png" alt="register">
+                <div class="card-body">
+                    <h5 class="card-title">Register Form</h5>
+                    <p class="card-text">A registration page that uses all input methods- text, radio buttons,
+                        checkboxes, etc. </p>
+                    <aside class="d-flex justify-content-around">
+                        <a href="#" class="btn text-center">Project</a>
+                        <a href="#" class="btn text-center">Code</a>
+                    </aside>
+                </div>
+            </div>
+
+            <!-- proj 3 - checkout -->
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/checkout-ex.png" alt="checkout">
+                <div class="card-body">
+                    <h5 class="card-title">Checkout</h5>
+                    <p class="card-text">A checkout page where users can fill in address and billing info in a
+                        realistic setting. </p>
+                    <aside class="d-flex justify-content-around">
+                        <a href="#" class="btn text-center">Project</a>
+                        <a href="#" class="btn text-center">Code</a>
+                    </aside>
+                </div>
+            </div>
+        </article>
+
+        <!-- CSS projects -->
+        <article id="css">
+
+            <!-- title -->
+            <h1 class="heading text-left">CSS</h1>
+
+            <!-- proj 1 - twitter -->
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/twitter-profile.png" alt="twitter project" height="195px">
+                <div class="card-body">
+                    <h5 class="card-title">Twitter Clone</h5>
+                    <p class="card-text">Using CSS, this page recreates the layout and design of a Twitter user's
+                        profile.</p>
+                    <aside class="d-flex justify-content-around">
+                        <a href="#" class="btn text-center">Project</a>
+                        <a href="#" class="btn text-center">Code</a>
+                    </aside>
+                </div>
+            </div>
+
+            <!-- proj 2 - media queries -->
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/media-queries.png" alt="Media Queries">
+                <div class="card-body">
+                    <h5 class="card-title">Media Queries</h5>
+                    <p class="card-text">This page applies media queries to create a simple, mobile-responsive site for
+                        a company,
+                        only using CSS.</p>
+                    <aside class="d-flex justify-content-around">
+                        <a href="#" class="btn text-center">Project</a>
+                        <a href="#" class="btn text-center">Code</a>
+                    </aside>
+                </div>
+            </div>
+
+            <!-- proj 3 - codeup design -->
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/codeup-design.jpg" alt="Codeup Design" height="195px">
+                <div class="card-body">
+                    <h5 class="card-title">Codeup Design</h5>
+                    <p class="card-text">Here we built a responsive web page solely from four wireframes, using
+                        Bootstrap.</p>
+                    <aside class="d-flex justify-content-around">
+                        <a href="#" class="btn text-center">Project</a>
+                        <a href="#" class="btn text-center">Code</a>
+                    </aside>
+                </div>
+            </div>
+        </article>
+
+
+        <!-- Javascript projects -->
+        <article id="js">
+            <!-- Title -->
+            <h1 class="heading text-right mr-5">Javascript</h1>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/here-map.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Here Map</h5>
+                    <p class="card-text">This page works with an API to show current map with markers and info bubbles. </p>
+                    <aside class="d-flex justify-content-around">
+                        <a href="#" class="btn text-center">Project</a>
+                        <a href="#" class="btn text-center">Code</a>
+                    </aside>
+                </div>
+            </div>
+
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/coledge-coffee.png" alt="Coffee Project" height="182px">
+                <div class="card-body">
+                    <h5 class="card-title">Coffee Project</h5>
+                    <p class="card-text">This page has two search features that update in the moment
+                        as a user types or makes a selection.</p>
+                    <aside class="d-flex justify-content-around">
+                        <a href="#" class="btn text-center">Project</a>
+                        <a href="#" class="btn text-center">Code</a>
+                    </aside>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/here-map.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">BOM/DOM</h5>
+                    <p class="card-text">This page works with an API to show current map with markers and info bubbles. </p>
+                    <aside class="d-flex justify-content-around">
+                        <a href="#" class="btn text-center">Project</a>
+                        <a href="#" class="btn text-center">Code</a>
+                    </aside>
+                </div>
+            </div>
+        </article>
+
+        <!-- jQuery projects -->
+        <article id="jquery">
+            <!-- Title -->
+            <h1 class="heading text-left">jQuery</h1>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/here-map.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Nat'l Parks</h5>
+                    <p class="card-text">Having a little fun with jQuery, this page takes static text to the next level with fun interactive trivia.
+
+                    </p>
+                    <aside class="d-flex justify-content-around">
+                        <a href="#" class="btn text-center">Project</a>
+                        <a href="#" class="btn text-center">Code</a>
+                    </aside>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/here-map.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Whack-A-Bug Game</h5>
+                    <p class="card-text">A small, but addictive game of whack-a-mole for programmers made with HTML, CSS, + jQuery.</p>
+                    <aside class="d-flex justify-content-around">
+                        <a href="#" class="btn text-center">Project</a>
+                        <a href="#" class="btn text-center">Code</a>
+                    </aside>
+                </div>
+            </div>
+
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/here-map.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Weather Project</h5>
+                    <p class="card-text">This page works with an API to show current map with markers and info bubbles. </p>
+                    <aside class="d-flex justify-content-around">
+                        <a href="#" class="btn text-center">Project</a>
+                        <a href="#" class="btn text-center">Code</a>
+                    </aside>
+                </div>
+            </div>
+
+        </article>
+
+
+        <!--  graphic -->
+        <aside class="img d-flex justify-content-center m-5">
+            <img src="img/folders.svg" width="175px" height="175px">
+        </aside>
+
     </main>
 </div>
 </body>

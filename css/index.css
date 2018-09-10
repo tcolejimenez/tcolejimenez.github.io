@@ -7,6 +7,8 @@
 * {
    /* background-color: #525252;
     color: cornsilk; */
+
+    font-family: 'Lato', sans-serif;
 }
 
 a {
@@ -24,12 +26,16 @@ a:hover {
 
 .jumbotron h1 {
     color: var(--highlight-color);
+    font-family: 'Lobster Two', cursive;
+
+
 }
 
 .heading {
     text-decoration: underline;
     text-decoration-color: var(--highlight-color);
     clear: both;
+    margin: 30px;
 }
 
 figure h1 {
@@ -108,4 +114,47 @@ main {
 
 .grey {
     color: #5e5e5e;
+}
+
+article h1 {
+    font-family: 'Lobster Two', cursive;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-family: 'Lobster Two', cursive;
+
+}
+
+.card {
+    float: left;
+    margin: 10px;
+}
+
+.card-title {
+    font-family: 'Lobster Two', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+.card-body {
+    background-color: #e4e4e4;
+}
+
+.btn {
+    color: white;
+    background-color: var(--highlight-color);
+}
+
+
+#html, #css, #js, #jquery {
+    margin-bottom: 500px;
+}
+
+#resume-languages h1 {
+    font-size: 30px;
+}
+
+#resume-languages figure {
+    float: left;
 }
