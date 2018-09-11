@@ -32,10 +32,12 @@ a:hover {
 }
 
 .heading {
+    font-family: 'Lobster Two', cursive;
     text-decoration: underline;
     text-decoration-color: var(--highlight-color);
     clear: both;
-    margin: 30px;
+    margin: 30px 0px;
+
 }
 
 figure h1 {
@@ -152,9 +154,13 @@ article h1 {
 }
 
 #resume-languages h1 {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 #resume-languages figure {
     float: left;
+}
+
+.clear {
+    clear: both;
 }
